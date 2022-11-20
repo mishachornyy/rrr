@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.linee{
+    border-right: 1px solid #ADABAB;
+}
+
+.apptt {
+    background: white;
+    overflow: auto;
+    max-height: 545px;
+    width: auto;
+
+}
+th {
+    position: sticky;
+    top: 0;
+    background: white;
+    border-bottom: 1px solid #B0B0B0;
+}
+.able{
+
+    border: 1px solid #839278;
+    border-radius: 20px;
+    height: 39.167vw;
+
+}
+
+.head{
+    color: #839278;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+}
+
+.line {
+    border-bottom: 1px solid #B0B0B0;
+}
+
+.head-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+
+    color: #839278;
+}
+
+.inp input{
+
+    height: 40px;
+    left: 333px;
+    top: 352px;
+    margin-top: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    border: 1px solid #839278;
+    border-radius: 10px;
+}
+.inp{
+    width: auto;
+
+}
+tr{
+    background: rgba(131, 146, 120, 0.1);
+}
+tr:nth-child(2n) {
+    background: white
+}
+.table-text{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.appt {
+    max-width: 900px;
+    width: 100%;
+    table-layout: fixed;
+}
+Row img {
+
+    width: 900px;
+}
+.vvd {
+    width: 100px;
+}
+
+input{
+    border: 1px solid #839278;
+    border-radius: 4px
+}
+
+input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+   margin: 12px;
+}
+.number {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    height: 32px;
+    width: 100px;
+    background: rgba(131, 146, 120, 0.2);
+    border: 1px solid #839278;
+    border-radius: 10px;
+
+
+}
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background: #DADED7;
+    transform: rotate(-90deg);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #839278;
+    border-radius: 5px;
+    max-height: 4px;
+}
+
+/* Handle on hover */
+.text {
+    color: #839278;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.fff{
+    display: flex;
+    justify-content: flex-end;
+}
